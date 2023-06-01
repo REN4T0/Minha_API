@@ -11,24 +11,24 @@
     <h1>Autenticação da API</h1>
     <!-- Formulário de login -->
 
-    <form id = " loginForm ">
+    <form id="loginForm">
 
-        <label for = " username ">Usuário</label><br>
-        <input type = " text " id = " username " name = " username "><br><br>
+        <label for="username">Usuário</label><br>
+        <input type="text" id="username" name="username"><br><br>
 
-        <label for = " password ">Senha</label><br>
-        <input type = " password " name = " password " id = " password "><br><br>
+        <label for="password">Senha</label><br>
+        <input type="password" name="password" id="password"><br><br>
 
-        <button type = " submit ">Consultar</button>
+        <button type="submit">Consultar</button>
 
     </form>
 
 
     <!-- DIV com resultado da consulta da API -->
-    <div id = " response ">
+    <div id="response">
 
         <h1>Resposta da consulta</h1>
-        <pre class = " response " ></pre>
+        <pre class="response"></pre>
 
     </div>
 

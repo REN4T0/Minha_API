@@ -18,7 +18,7 @@ form.addEventListener('submit', function (event){
     fetch('http://localhost/Minha_API/api.php/?endpoint=users', {
         // Encapsulamento - seleciona tudo o que tem que enviar e coloca dentro de um pacote e o envia de uma forma segura
         headers:{
-            'Authorization': `Basic ${encodedCredentials}`; // Incluir as credenciais no cabealho de solicitação
+            'Authorization': `Basic ${encodedCredentials}` // Incluir as credenciais no cabealho de solicitação
         
         }
     })
